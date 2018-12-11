@@ -14,6 +14,7 @@ import {
   ,skills
   ,langauges
   ,experience
+  ,projects
   ,education
   ,siteTitle
   ,siteDescription
@@ -130,6 +131,25 @@ export default () => (
       }
       </div>
     </div>
+      <div className="card">
+          <h2 className="mt-3 ml-3">
+              <i className="fa fa-certificate fa-fw mr-1"></i>
+              Projects
+          </h2>
+          <div className="card-body">
+              {
+                  projects.map((detail)=>{
+                      return <DetailsCard title={detail.name + " / " + detail.company }
+                                          techStack={detail.techStack}
+                                          startDate={detail.startDate}
+                                          endDate={detail.endDate}
+                                          current={detail.current}
+                                          overview={detail.overview}
+                      />
+                  })
+              }
+          </div>
+      </div>
     <div className="card">
       <h2 className="mt-3 ml-3">
         <i className="fa fa-certificate fa-fw mr-1"></i>

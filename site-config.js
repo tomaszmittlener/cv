@@ -25,11 +25,19 @@ module.exports = {
         },
         {
             name:"HTML",
+            rating: "9"
+        },
+        {
+            name:"CSS",
             rating: "8"
         },
         {
             name:"ReactJs",
             rating: "9"
+        },
+        {
+            name:"Vue.js",
+            rating: "6"
         },
         {
             name:"Styled Components",
@@ -60,78 +68,65 @@ module.exports = {
     ],
     experience:[
         {
-            position:"Software Enginer",
-            company: "Company Pvt. Ltd.",
-            current:true,
-            startDate: "March 2017",
+            position:"Front-End Developer",
+            company: "Scalac.io",
+            current: true,
+            startDate: "Jun 2017",
             endDate: "current",
-            overview:"Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+            overview: `Working for various multinational clients, as a Front-End consultant. Providing expertise in fields such as building MVPs, maintaining and improving existing projects. Sometimes working on internal projects which help the company strive for better`
         },
         {
-            position:"Software Enginer ",
-            company: "Company 2 Pvt. Ltd.",
+            position:"Lawyer",
+            company: "Clifford Chance",
             current:false,
-            startDate: "March 2017",
+            startDate: "November 2015",
             endDate: "March 2017",
-            overview:"Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+            overview: "Lawyer in a corporate department, gaining experience in public and private mergers and acquisitions, taking part in due diligence process and providing legal services for multinational companies. During my university studies and after graduation, I've been learning javaScript and creating branding websites as a part time job.",
+        }
+    ],
+    projects :[
+        {
+            position:"Front-End Developer",
+            name: "Perseus",
+            company: "Scalac",
+            teamSize: "4",
+            current: false,
+            startDate: "January 2018",
+            endDate: "Jun 2018",
+            overview: `Perseus is the company, which wants to bring security awareness to companies by providing a platform for both employees who can train their skills as well as managers who can keep track of their team progress and level of security awareness. I have joined the project in the beginning of 2018, where together with two other Frontend Developers we managed to rewrite the frontend application from scratch in a very short period of time. As a base tech stack we decided to use React, Redux, Styled Components for styling and Jest for writing tests. We are working in Scrum driven environment, starting each day with a short daily meeting and finishing each sprint presenting our work in demo sessions. In recent months I have been mainly delivering new features, implementing redesigned layouts and increasing our test coverage. During this period I have been also working on creating Perseus landing page and landing page of one of Perseus its clients: https://signal-iduna.perseus.de/ https://www.perseus.de/`,
+            techStack: ['React', 'Redux', 'Styled Components'],
         },
         {
-            position:"Software Enginer",
-            company: "Company 3 Pvt. Ltd.",
-            current:false,
-            startDate: "March 2017",
-            endDate: "March 2017",
-            overview:"Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+            position:"Front-End Developer",
+            name: "Graupel.com",
+            company: "Graupel Inc.",
+            teamSize: "4",
+            current: false,
+            startDate: "January 2018",
+            endDate: "Jun 2018",
+            overview: `Graupel is new e-commerce store based in Miami that utilizes 3d scanning system to best fit clothes for you. I have been working in a team of two Fronted Developers, one Backend Developer and Graphic Designer on delivering a functional MVP in given deadline which required prioritizing features and focusing on them. We managed to deliver fully functioning platform which we believe will be a great starting point for this ambitious project. As a basic tech stack we used: React, Redux, Styled Components, Jest, Contentful SDK, Jira, Trello, Apiary and Netlify`,
+            techStack: ['React', 'Redux', 'Styled Components'],
         },
         {
-            position:"Software Enginer",
-            company: "Company 4 Pvt. Ltd.",
-            current:false,
-            startDate: "March 2017",
-            endDate: "March 2017",
-            overview:"Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+            position:"Front-End Developer",
+            name: "Hire-Help",
+            company: "Scalac.io",
+            teamSize: "10",
+            current: false,
+            startDate: "Jun 2017",
+            endDate: "current",
+            overview: `Worked on creating an innovative application designed for improving developers recruitment process. I've been developing features using React, Redux, Webpack and cutting edge libraries. Worked in Scrum driven environment (with daily startups, demo sessions and sprint planning) with 5 - 6 frontend, up to 3 backend and testers based teams. We used Slack/Hangouts to communicate (english only) and Jira for agile task management. Daily basis work aimed to implement new features, code review, bug fixes for frontend part of the application and improving UI/UX in application. The work required strong cooperation with both frontend and backend team, as well as the testers and application users.`,
+            techStack: ['React', 'Redux', 'Styled Components'],
         }
     ],
     education:[
         {
-            college:"Some College of Engineering 1",
-            degree:"Compouter Science And Engineering",
-            startDate:"July 2007",
-            endDate: "Jun 2011",
-            current: true,
-            overview: "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
-        },
-        {
-            college:"Some College of Engineering 2",
-            degree:"Compouter Science And Engineering",
-            startDate:"July 2007",
-            endDate: "Jun 2011",
+            college:"University of Gdańsk",
+            degree:"Master of Law",
+            startDate:"July 2009",
+            endDate: "Jun 2015",
             current: false,
-            overview: "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
-        },
-        {
-            college:"Some College of Engineering 3",
-            degree:"Compouter Science And Engineering",
-            startDate:"July 2007",
-            endDate: "Jun 2011",
-            current: false,
-            overview: "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
-        },
-        {
-            college:"Some College of Engineering 4",
-            degree:"Compouter Science And Engineering",
-            startDate:"July 2007",
-            endDate: "Jun 2011",
-            current: false,
-            overview: "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
-        },
-        {
-            college:"Some College of Engineering 5",
-            degree:"Compouter Science And Engineering",
-            startDate:"July 2007",
-            endDate: "Jun 2011",
-            current: false,
-            overview: "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+            overview: "I graduated from the law school with a master's degree, however I was always interested in new technologies and software development :)"
         }
     ],
     // Links to social profiles/projects you want to display in the author segment/navigation bar.

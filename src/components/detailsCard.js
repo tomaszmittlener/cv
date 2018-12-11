@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component, Fragment} from 'react'
 
 class DetailsCard extends Component {
     render () {
@@ -15,7 +15,10 @@ class DetailsCard extends Component {
                     {this.props.overview}
                 </p>
                 {this.props.techStack &&
-                <ul className="text-color">{this.props.techStack.map(skill => <li>{skill}</li>)}</ul>
+                    <Fragment>
+                <h6><i className="fa fa-asterisk fa-fw mr-2"></i> Tech Stack</h6>
+                <ul>{this.props.techStack.map(skill => <li>{skill}</li>)}</ul>
+                    </Fragment>
                 }
                 <hr/>
                 <br/>

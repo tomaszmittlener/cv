@@ -1,23 +1,23 @@
 const path = require('path');
 
 module.exports = {
-    name:"Mojaave.com",
-    siteTitle: "Mahipat Jadav,Full stack developer,Javascript,ReactJs,India", // Site title.
-    siteLogo: `${__dirname}/src/static/images/mahipat.jpg`,
-    siteUrl: "https://mhjadav.github.io/gatsby-starter-bootstrap-cv", // Domain of your website without pathPrefix.
-    siteKeyword:"mahipat Jadav, software engineer, full stack developer, mahipat, javascript, react js, Angular, node js, graphql, jquery, lodash, javascript expert, Typescript, ES6, software engineer, web developer, front end developer, bootstrap, material design.",
-    siteDescription: "Full stack developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
-    googleAnalyticsID: "UA-115817837-3", // GA tracking ID.
-    userName: "Mahipat Jadav", // Username to display in the author segment.
-    userTwitter: "mhjadav", // Optionally renders "Follow Me" in the UserInfo segment.
-    userLocation: "Ahmedabad, Gujarat, India", // User location to display in the author segment.
-    userAvatar: "./src/static/images/mahipat.jpg", // User avatar to display in the author segment.
-    favicon32:`./src/static/images/mahipat32.jpg`,
-    favicon16:`./src/static/images/mahipat16.jpg`,
-    ogImage: `./src/static/images/mahipat250.jpg`,
-    userDescription: "Full stack developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
-    userPhone:"+91-9898226919",
-    userEmail:"mj@mojaave.com",
+    name:"mittlener.com",
+    siteTitle: "Tomasz Mittlener ,Frontend developer,Javascript,ReactJs,Poland", // Site title.
+    siteLogo: `${__dirname}/src/static/images/me.jpg`,
+    siteUrl: "https://mittlener.com", // Domain of your website without pathPrefix.
+    siteKeyword:"Tomasz Mittlener, software engineer, frontend developer, javascript, react js, vue js, node js, graphql, jquery, lodash, javascript expert, ES6, software engineer, web developer, front end developer, bootstrap, material design, styled components, gatsby, react gatsby.",
+    siteDescription: "Frontend developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
+    googleAnalyticsID: "UA-130772433-1", // GA tracking ID.
+    userName: "Tomasz mittlener", // Username to display in the author segment.
+    userTwitter: "t_mittlener", // Optionally renders "Follow Me" in the UserInfo segment.
+    userLocation: "Gdańsk, Poland", // User location to display in the author segment.
+    userAvatar: "./src/static/images/me.jpg", // User avatar to display in the author segment.
+    favicon32:`./src/static/images/me.jpg`,
+    favicon16:`./src/static/images/me.jpg`,
+    ogImage: `./src/static/images/me.jpg`,
+    userDescription: "Frontend developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby, Styled Components, Vue.js", // Website description used for RSS feeds/meta description tag.
+    userPhone:"+48 696 412 010",
+    userEmail:"t.mittlener@gmail.com",
     skills:[
         {
             name:"Javascript",
@@ -29,7 +29,15 @@ module.exports = {
         },
         {
             name:"ReactJs",
-            rating: "6"
+            rating: "9"
+        },
+        {
+            name:"Styled Components",
+            rating: "9"
+        },
+        {
+            name:"Lodash",
+            rating: "7"
         },
         {
             name:"GraphQL",
@@ -37,22 +45,18 @@ module.exports = {
         },
         {
             name:"NodeJs",
-            rating: "8"
+            rating: "7"
         }
     ],
     langauges:[
         {
-            name:"Gujarati",
-            rating: 10
-        },
-        {
-            name: "Hindi",
+            name:"Polish",
             rating: 10
         },
         {
             name: "English",
-            rating: 8
-        }
+            rating: 9
+        },
     ],
     experience:[
         {
@@ -134,26 +138,26 @@ module.exports = {
     userLinks: [
       {
         label: "GitHub",
-        url: "https://github.com/mhjadav/gatsby-starter-bootstrap-cv",
+        url: "https://github.com/tomaszmittlener",
         iconClassName: "fa fa-github"
       },
       {
         label: "Twitter",
-        url: "https://twitter.com/mhjadav",
+        url: "https://twitter.com/t_mittlener",
         iconClassName: "fa fa-twitter"
       },
       {
         label: "Email",
-        url: "mailto:mj@mojaave.com",
+        url: "mailto:t.mittlenerj@gmail.com",
         iconClassName: "fa fa-envelope"
       },
       {
         label: "LinkedIn",
-        url: "https://www.linkedin.com/in/mhjadav/",
+        url: "https://www.linkedin.com/in/tomasz-mittlener-885768157",
         iconClassName: "fa fa-linkedin"
       }
     ],
-    copyright: "Copyright © 2018. @mahipat", // Copyright string for the footer of the website and RSS feed.
+    copyright: "Copyright © 2018. @t.mittlener", // Copyright string for the footer of the website and RSS feed.
     themeColor: "#5a76b9", // Used for setting manifest and progress theme colors.
     backgroundColor: "#fff" // Used for setting manifest background color.
   };

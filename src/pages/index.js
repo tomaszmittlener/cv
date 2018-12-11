@@ -21,10 +21,10 @@ import {
   ,siteURL
 } from "../../site-config"
 
-import userAvatar from  "../static/images/mahipat.jpg";
-import favicon32  from   "../static/images/mahipat32.jpg";
-import favicon16  from   "../static/images/mahipat16.jpg";
-import ogImage  from   "../static/images/mahipat250.jpg";
+import userAvatar from  "../static/images/me.png";
+import favicon32  from   "../static/images/me.png";
+import favicon16  from   "../static/images/me.png";
+import ogImage  from   "../static/images/me.png";
 
 export default () => (
   <div className="container-fluid">
@@ -54,7 +54,7 @@ export default () => (
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
           <i className="fa fa-home fa-fw margin-right">
-          </i> 
+          </i>
           {userLocation}
         </li>
         <li className="list-group-item">
@@ -120,8 +120,8 @@ export default () => (
       <div className="card-body">
         {
           experience.map((detail)=>{
-            return <DetailsCard title={detail.position +" / " + detail.company} 
-            startDate={detail.startDate} 
+            return <DetailsCard title={detail.position +" / " + detail.company}
+            startDate={detail.startDate}
             endDate={detail.endDate}
             current={detail.current}
             overview={detail.overview}
@@ -138,8 +138,8 @@ export default () => (
       <div className="card-body">
       {
           education.map((detail)=>{
-            return <DetailsCard title={detail.degree +" / " + detail.college} 
-            startDate={detail.startDate} 
+            return <DetailsCard title={detail.degree +" / " + detail.college}
+            startDate={detail.startDate}
             endDate={detail.endDate}
             current={detail.current}
             overview={detail.overview}

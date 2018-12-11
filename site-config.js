@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     name:"mittlener.com",
     siteTitle: "Tomasz Mittlener ,Frontend developer,Javascript,ReactJs,Poland", // Site title.
-    siteLogo: `${__dirname}/src/static/images/me.jpg`,
+    siteLogo: `${__dirname}/src/static/images/me.png`,
     siteUrl: "https://mittlener.com", // Domain of your website without pathPrefix.
     siteKeyword:"Tomasz Mittlener, software engineer, frontend developer, javascript, react js, vue js, node js, graphql, jquery, lodash, javascript expert, ES6, software engineer, web developer, front end developer, bootstrap, material design, styled components, gatsby, react gatsby.",
     siteDescription: "Frontend developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
@@ -11,10 +11,10 @@ module.exports = {
     userName: "Tomasz mittlener", // Username to display in the author segment.
     userTwitter: "t_mittlener", // Optionally renders "Follow Me" in the UserInfo segment.
     userLocation: "Gdańsk, Poland", // User location to display in the author segment.
-    userAvatar: "./src/static/images/me.jpg", // User avatar to display in the author segment.
-    favicon32:`./src/static/images/me.jpg`,
-    favicon16:`./src/static/images/me.jpg`,
-    ogImage: `./src/static/images/me.jpg`,
+    userAvatar: "./src/static/images/me.png", // User avatar to display in the author segment.
+    favicon32:`./src/static/images/me.png`,
+    favicon16:`./src/static/images/me.png`,
+    ogImage: `./src/static/images/me.png`,
     userDescription: "Frontend developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby, Styled Components, Vue.js", // Website description used for RSS feeds/meta description tag.
     userPhone:"+48 696 412 010",
     userEmail:"t.mittlener@gmail.com",

@@ -22,6 +22,10 @@ import {
 
 import BirdOne from '../images/BirdOne'
 import Logo from '../images/Logo'
+import Baloon from '../images/Baloon'
+import CloudOne from '../images/CloudOne'
+import CloudTwo from '../images/CloudTwo'
+import Sun from '../images/Sun'
 
 import userAvatar from  "../static/images/me.png";
 import favicon32  from   "../static/images/me.png";
@@ -46,8 +50,13 @@ export default () => (
       ]}
     />
       <main className="main-container">
-          <a href="https://www.linkedin.com/in/tomasz-mittlener-885768157/" target="_blank" className="logo_link">
-          <Logo className="logo"/>
+          {/*<Sun className="sun"/>*/}
+          {/*<CloudOne className="cloud cloud__one"/>*/}
+          {/*<CloudTwo className="cloud cloud__two"/>*/}
+          {/*<Baloon className="baloon_img"/>*/}
+          <a href="https://www.linkedin.com/in/tomasz-mittlener-885768157/" target="_blank" className="logo">
+              <BirdOne className="logo__bird"/>
+              <Logo className="logo__text"/>
           </a>
 
       </main>

@@ -1,0 +1,30 @@
+@import '../styles/theme';
+
+*{
+  font-family: "Tahoma", sans-serif;;
+}
+
+body{
+  color: $primaryColor;
+  background-image: linear-gradient($backgroundColor, $canvas);
+  height: 100vh;
+  width: 100vw;
+}
+
+.bird_one--wing {
+  fill: #ffff;
+}
+
+
+
+.logo {
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+
+}

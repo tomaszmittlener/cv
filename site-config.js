@@ -4,8 +4,8 @@ module.exports = {
     name:"mittlener.com",
     siteTitle: "Tomasz Mittlener ,Frontend developer,Javascript,ReactJs,Poland", // Site title.
     siteLogo: `${__dirname}/src/static/images/me.png`,
-    siteUrl: "https://mittlener.com", // Domain of your website without pathPrefix.
-    siteKeyword:"Tomasz Mittlener, software engineer, frontend developer, javascript, react js, vue js, node js, graphql, jquery, lodash, javascript expert, ES6, software engineer, web developer, front end developer, bootstrap, material design, styled components, gatsby, react gatsby.",
+    siteURL: "https://mittlener.com", // Domain of your website without pathPrefix.
+    siteKeywords:"Tomasz Mittlener, software engineer, frontend developer, javascript, react js, vue js, node js, graphql, jquery, lodash, javascript expert, ES6, software engineer, web developer, front end developer, bootstrap, material design, styled components, gatsby, react gatsby.",
     siteDescription: "Frontend developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
     googleAnalyticsID: "UA-130772433-1", // GA tracking ID.
     userName: "Tomasz Mittlener", // Username to display in the author segment.

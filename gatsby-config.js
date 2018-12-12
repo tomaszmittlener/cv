@@ -6,15 +6,17 @@ const {
   themeColor,
   backgroundColor,
   siteUrl,
-  siteLogo
+  siteLogo,
+    googleAnalyticsID
 } = require('./site-config');
 module.exports = {
     plugins: [
       'gatsby-plugin-react-helmet',
+        `gatsby-plugin-sass`,
       {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
-          trackingId: "<your-tracking-id-here>",
+          trackingId: googleAnalyticsID,
           head: true
         }
       },
@@ -30,28 +32,22 @@ module.exports = {
           icon: siteLogo,
           icons: [
             {
-              src: "/images/mahipat48.jpg",
+              src: "/images/me.png",
               sizes: `48x48`,
               type: `image/jpg`
             },
             {
-              src: "/images/mahipat192.jpg",
+              src: "/images/me.png",
               sizes: `192x192`,
               type: `image/jpg`
             },
             {
-              src: "/images/mahipat512.jpg",
+              src: "/images/me.png",
               sizes: `512x512`,
               type: `image/jpg`
             },
           ]
         },
-    },
-    {
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        whitelist: ["body","html","fa", "fa-twitter", "fa-github", "fa-linkedin"]
-      }
     },
     'gatsby-plugin-offline',
     ],
@@ -62,4 +58,3 @@ module.exports = {
       url: siteUrl
     }
   };
-  
